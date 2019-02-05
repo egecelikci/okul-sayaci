@@ -20,7 +20,7 @@ window.onload = function onLoad() {
         var minutes = Math.floor((distance % _hour) / _minute);
         var seconds = Math.floor((distance % _minute) / _second);
         document.getElementById("percent").innerHTML = done * 100 + "%";
-        document.getElementById("countdown").innerHTML = `${days} gün, ${minutes} dakika, ${hours} saat, ${seconds} saniye.`;
+        document.getElementById("countdown").innerHTML = `${days} gün, ${hours} saat, ${minutes} dakika, ${seconds} saniye.`;
         return done;
     }
 
