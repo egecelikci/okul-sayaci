@@ -4,7 +4,7 @@ window.onload = function onLoad() {
         trailColor: '#646464'
     });
 
-    $.getJSON("https://egecelikci.github.io/veriler/okul-sayaci.json", function(data) {
+    $.getJSON("https://egecelikci.keybase.pub/veriler/okul-sayaci.json", function(data) {
         function progress() {
             var now = new Date();
             var start = new Date(data.start);
