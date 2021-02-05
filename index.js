@@ -13,7 +13,6 @@ https.get(url, (res) => {
     const end = new Date(data.end);
     const progressOfThisYear = (now - start) / (end - start);
     const days = Math.floor((end - now) / (1000 * 60 * 60 * 24));
-
     function generateProgressBar() {
       const progressBarCapacity = 30;
       const passedProgressBarIndex = parseInt(
@@ -36,8 +35,7 @@ https://egecelikci.github.io/okul-sayaci
 
 ### düz metin (credits: [ebrugulec/year-progress](https://github.com/ebrugulec/year-progress))
 
-${days} gün kaldı.
-${generateProgressBar()} ${(progressOfThisYear * 100).toFixed(2)} %`;
+okulların ${(data.situtation) ? "bitmesine" : "başlamasına"} ${days} gün kaldı, 👉 ${generateProgressBar()} ${(progressOfThisYear * 100).toFixed(2)} %`;
 
     console.log(readMe);
   });
