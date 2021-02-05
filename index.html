@@ -1,72 +1,44 @@
+<!doctype html>
 <html>
-
-<head>
+  <head>
     <title>Okul Sayacı</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
-
-    <!-- Meta Data -->
+    <meta content="Okulun başlamasına/bitmesine ne kadar kaldığını gösteren bir site." name="description"/>
     <meta name="theme-color" content="#e82132">
-    <meta content="https://egecelikci.github.io/okul-sayaci/favicon.png" property="og:image" />
-    <link rel="icon" type="image/x-icon" href="https://egecelikci.github.io/okul-sayaci/favicon.png">
-    <meta content="Okul Sayacı" property="og:title" />
-
-    <meta content="Okulun başlamasına/bitmesine ne kadar kaldığını gösteren bir sitecik." property="og:description" />
-    <meta content="Okulun başlamasına/bitmesine ne kadar kaldığını gösteren bir sitecik." name="description" />
-
-    <meta property="og:locale" content="tr_TR" />
-    <link rel="canonical" href="https://egecelikci.github.io/okul-sayaci/" />
-    <meta property="og:url" content="https://egecelikci.github.io/okul-sayaci/" />
-    <meta property="og:site_name" content="Okul Sayacı" />
-
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@egecelikci" />
-
-    <!-- CSS -->
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="canonical" href="https://egecelikci.github.io/okul-sayaci"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        body,
-        a {
-            color: #e82132;
-            background-color: #adadad;
-        }
-
-        h1,
-        h2,
-        p {
-            text-align: center;
-        }
-
-        a:hover,
-        a:hover div {
-            color: #adadad;
-            background-color: #e82132;
-            outline: 0.05em solid #e82132;
-        }
-
-        .progress {
-            background-color: lightgrey;
-            height: 300px;
-        }
-
-        .progress>svg {
-            display: block;
-            height: 100%;
-        }
+      body {
+        color: #e82132;
+        background-color: #adadad;
+      }
+      h1, h3, p {
+        text-align: center;
+      }
+      .progress {
+        background-color: lightgrey;
+        height: 300px;
+      }
+      .progress > svg {
+        display: block;
+        height: 100%;
+      }
+      #countdown, #percent {
+        font-family: 'Courier New', Courier, monospace;
+      }
     </style>
-
-    <!-- JavaScript -->
-    <script src="scripts.js"></script>
-    <script src="progressbar.min.js"></script>
-    <script src="jquery.min.js"></script>
-</head>
-
-<body>
+  </head>
+  <body>
     <h1>Okul Sayacı</h1>
 
     <div class="progress" id="progress"></div>
 
+    <h3 id="countdown"></h3>
     <h1 id="percent"></h1>
-    <h2 id="countdown"></h2>
-</body>
-
+    
+    <script src="progressbar.min.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
