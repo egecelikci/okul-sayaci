@@ -8,4 +8,4 @@ https://egecelikci.github.io/okul-sayaci
 
 ### düz metin (credits: [ebrugulec/year-progress](https://github.com/ebrugulec/year-progress))
 
-okulların bitmesine 129 gün kaldı, 👉 ████████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁ 55.34 %
+okulların bitmesine 128 gün kaldı, 👉 ████████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁ 55.68 %
