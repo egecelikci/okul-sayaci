@@ -35,7 +35,7 @@ https://egecelikci.github.io/okul-sayaci
 
 ### düz metin (credits: [ebrugulec/year-progress](https://github.com/ebrugulec/year-progress))
 
-okulların ${(data.situtation) ? "bitmesine" : "başlamasına"} ${days} gün kaldı, 👉 ${generateProgressBar()} ${(progressOfThisYear * 100).toFixed(2)} %`;
+okulların ${(data.situtation) ? "kapanmasına" : "açılmasına"} ${days} gün kaldı, 👉 ${generateProgressBar()} ${(progressOfThisYear * 100).toFixed(2)} %`;
 
     console.log(readMe);
   });
