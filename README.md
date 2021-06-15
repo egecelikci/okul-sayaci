@@ -8,4 +8,4 @@ https://egecelikci.github.io/okul-sayaci
 
 ### düz metin (credits: [ebrugulec/year-progress](https://github.com/ebrugulec/year-progress))
 
-okulların kapanmasına 17 gün kaldı, 👉 ████████████████████████████▁▁ 94.11 %
+okulların kapanmasına 16 gün kaldı, 👉 ████████████████████████████▁▁ 94.44 %
